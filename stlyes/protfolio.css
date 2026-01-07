@@ -6,6 +6,22 @@
     box-sizing: border-box;
 }
 
+.section-heading{
+    max-width: 827px;
+    text-align: center;
+}
+.section-heading h2{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.section-heading p{
+    color: #757575;
+    font-size: 16px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    
+}
 
 /* .share style{
 
@@ -102,4 +118,102 @@ nav .manu a{
 #banner .banner-img img{
     max-width: 585px;
     vertical-align: middle;
+}
+#about{
+    padding-top: 130px;
+}
+
+#about .about-container{
+    max-width: 1140px;
+    width: 100%;
+    background-color:#FFF8F3;
+    margin: 0 auto;
+    text-align: center;
+    padding: 136px 156px;
+
+
+}
+.section-heading p{
+  color: #757575;
+  font-size: 16px;
+ margin-bottom: 30px;
+  line-height: 30px;
+
+}
+..section-heading h2{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+
+#about .about-container .about-info{
+    display: flex;
+    gap: 50px;
+ justify-content: space-around;
+}
+.about-info .info-card p{
+    font-size: 20px;
+    line-height: 30px;
+    color: #757575;
+
+}
+
+.about-info .info-card h4{
+    font-size: 20px;
+    line-height: 30px;
+    color: #474747;
+}
+#skills{
+    padding-top: 130px;
+}
+#skills .skills-container{
+    max-width: 1140px;
+    width: 71%;
+    margin: 0 auto;
+}
+.skills-heading{
+    max-width: 827px;
+    text-align: center;
+    margin: 0 auto;
+}
+.skills-heading h2{
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+   
+}  
+.skills-heading p{
+ color: #757575;
+ line-height: 30px;
+ font-size: 16px;
+ 
+}
+
+#skills .skills-container .skill-box{
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+}
+.skill-box .skill-card{
+    padding: 30px;
+    /* border: 1px solid red; */
+    max-width: 267px;
+    box-shadow:0px 6px 50px 0px #00000028;
+}
+.skill-card img{
+    max-width: 44px;
+    margin-bottom: 30px;
+}
+.skill-card h3{
+    color: #181818;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.skill-card p{
+    color: #757575;
+    line-height: 28px;
+    font-size: 12px;
+    
 }
